@@ -22,7 +22,7 @@ export const Projects = () => {
     return <div className={s.projectsBlock}>
             <div className={style.container}>
                 <div className={s.wrapperProjects}>
-                    <h2 className={s.title}>My projects</h2>
+                    <h3 className={s.title}>My projects</h3>
                     <div className={s.projects}>
                         {projectsCards}
                     </div>

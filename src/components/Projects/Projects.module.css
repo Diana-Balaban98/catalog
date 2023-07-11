@@ -8,6 +8,7 @@
 .wrapperProjects {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .title {
@@ -20,6 +21,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     border: 1px solid;
 }
 

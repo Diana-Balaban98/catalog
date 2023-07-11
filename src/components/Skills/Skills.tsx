@@ -15,7 +15,7 @@ export const Skills = () => {
     return <div className={s.skillsBlock}>
             <div className={style.container}>
                 <div className={s.wrapperSkills}>
-                    <h2 className={s.title}>My skills</h2>
+                    <h3 className={s.title}>My skills</h3>
                     <div className={s.skills}>
                         {skillCards}
                     </div>
