@@ -1,6 +1,7 @@
 import React from 'react';
 import styleContainer from '../../common/styles/Container.module.css';
 import s from './Contacts.module.css'
+import {Button} from "../Button/Button";
 
 const Contacts = () => {
     return (
@@ -13,7 +14,7 @@ const Contacts = () => {
                         <input/>
                         <textarea></textarea>
                     </form>
-                    <button>Send</button>
+                    <Button name="Send"/>
                 </div>
             </div>
         </div>
