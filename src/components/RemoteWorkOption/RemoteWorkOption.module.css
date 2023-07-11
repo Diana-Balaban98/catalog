@@ -1,0 +1,24 @@
+.RemoteWorkOptionBlock {
+    display: flex;
+    align-items: center;
+    background-color: lightsalmon;
+    height: 30vh;
+
+}
+
+.wrapperRemoteWorkOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.wrapperRemoteWorkOption h3 {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+}
+

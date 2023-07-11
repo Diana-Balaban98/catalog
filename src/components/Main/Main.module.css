@@ -1,0 +1,35 @@
+.mainBlock {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffd4f0;
+}
+
+.text {
+    width: 300px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: lavender;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+    .mainBlock {
+        min-height: 70vh;
+    }
+    .wrapper {
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,33 @@
+.projectsBlock {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkkhaki;
+}
+
+.wrapperProjects {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    background-color: gold;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+@media (max-width: 767px) {
+    .projectsBlock {
+        min-height: 120vh;
+    }
+    .projects {
+        justify-content: center;
+    }
+}
