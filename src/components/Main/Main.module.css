@@ -2,13 +2,21 @@
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-color: #ffd4f0;
+    background-color: #f2f2f2;;
 }
 
 .text {
-    width: 300px;
-    margin-bottom: 10px;
-    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text h1 {
+    font-size: 55px;
+}
+
+.text p {
+    font-size: 30px;
+    color: #4C1D95;
 }
 
 .photo {
@@ -28,6 +36,7 @@
     .mainBlock {
         min-height: 70vh;
     }
+
     .wrapper {
         justify-content: center;
     }

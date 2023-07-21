@@ -2,9 +2,28 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
-    border: 1px solid;
 }
 
 .nav a {
+    position: relative;
     text-decoration: none;
+    color: black;
+}
+
+.nav a:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.nav a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+    transition: width .3s ease 0s, right .3s ease 0s;
+    width: 0;
 }

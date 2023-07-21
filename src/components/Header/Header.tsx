@@ -7,6 +7,7 @@ export const Header = () => {
     return (
         <div className={s.header}>
             <div className={`${styleContainer.container} ${s.headerContainer}`}>
+                <div>ᄽᄿ𝙳𝙱.ᄽᄿ</div>
                 <Navigation/>
             </div>
         </div>
