@@ -16,13 +16,72 @@
 
 .text p {
     font-size: 30px;
-    color: #4C1D95;
+    color: hsla(0, 0%, 0%, .9);
+    animation: move linear 2000ms infinite;
+}
+
+@keyframes move {
+    0% {
+        text-shadow:
+                4px -4px 0 hsl(334, 83%, 79%),
+                3px -3px 0 hsl(334, 83%, 79%),
+                2px -2px 0 hsl(334, 83%, 79%),
+                1px -1px 0 hsl(334, 83%, 79%),
+                -4px 4px 0 hsl(333, 100%, 84%),
+                -3px 3px 0 hsl(259, 100%, 77%),
+                -2px 2px 0 hsl(259, 100%, 77%),
+                -1px 1px 0 hsl(259, 100%, 77%);
+    }
+    25% {
+        text-shadow:
+                -4px -4px 0 hsl(259, 100%, 77%),
+                -3px -3px 0 hsl(259, 100%, 77%),
+                -2px -2px 0 hsl(259, 100%, 77%),
+                -1px -1px 0 hsl(259, 100%, 77%),
+                4px 4px 0 hsl(334, 83%, 79%),
+                3px 3px 0 hsl(334, 83%, 79%),
+                2px 2px 0 hsl(334, 83%, 79%),
+                1px 1px 0 hsl(334, 83%, 79%);
+    }
+    50% {
+        text-shadow:
+                -4px 4px 0 hsl(334, 83%, 79%),
+                -3px 3px 0 hsl(334, 83%, 79%),
+                -2px 2px 0 hsl(334, 83%, 79%),
+                -1px 1px 0 hsl(334, 83%, 79%),
+                4px -4px 0 hsl(259, 100%, 77%),
+                3px -3px 0 hsl(259, 100%, 77%),
+                2px -2px 0 hsl(259, 100%, 77%),
+                1px -1px 0 hsl(259, 100%, 77%);
+    }
+    75% {
+        text-shadow:
+                4px 4px 0 hsl(259, 100%, 77%),
+                3px 3px 0 hsl(259, 100%, 77%),
+                2px 2px 0 hsl(259, 100%, 77%),
+                1px 1px 0 hsl(259, 100%, 77%),
+                -4px -4px 0 hsl(334, 83%, 79%),
+                -3px -3px 0 hsl(334, 83%, 79%),
+                -2px -2px 0 hsl(334, 83%, 79%),
+                -1px -1px 0 hsl(334, 83%, 79%);
+    }
+    100% {
+        text-shadow:
+                4px -4px 0 hsl(334, 83%, 79%),
+                3px -3px 0 hsl(334, 83%, 79%),
+                2px -2px 0 hsl(334, 83%, 79%),
+                1px -1px 0 hsl(334, 83%, 79%),
+                -4px 4px 0 hsl(259, 100%, 77%),
+                -3px 3px 0 hsl(259, 100%, 77%),
+                -2px 2px 0 hsl(259, 100%, 77%),
+                -1px 1px 0 hsl(259, 100%, 77%);
+    }
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: lavender;
+    background-image: url('https://image.spreadshirtmedia.com/image-server/v1/compositions/T757A1PA4077PT10X0Y0D1025440968W6015H7218/views/3,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/lorem-ipsum-dummy-text-cool-funny-quote-water-bottle.jpg');
 }
 
 .wrapper {
